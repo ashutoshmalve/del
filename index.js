@@ -19,6 +19,7 @@ function safeCheck(file) {
 	}
 }
 
+
 module.exports = (patterns, opts) => {
 	opts = Object.assign({}, opts);
 
